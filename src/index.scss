@@ -1,0 +1,78 @@
+// font-family: 'Lato', sans-serif;
+
+//colors
+
+:root {
+  --green_lighten_4: #c8e6c9;
+  --green_lighten_3: #a5d6a7;
+  --green_lighten_2: #81c784;
+  --green_lighten_1: #66bb6a;
+  --green: #4caf50;
+  --green_darken_1: #43a047;
+  --green_darken_2: #388e3c;
+  --green_darken_3: #2e7d32;
+  --green_darken_4: #1b5e20;
+  --dark: #1f1e1d;
+  --red_bright: #ff160c;
+
+  //fonts
+  --font_main: "Lato", sans-serif;
+  --spacing: 0.1rem;
+}
+
+/*===== main styles =====*/
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font_main, sans-serif);
+  color: var(--dark, #1f1e1d);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+}
+
+button,
+input {
+  font-family: var(--font_main, sans-serif);
+  border: none;
+  appearance: none;
+  outline: none;
+}
+
+select {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
